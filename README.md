@@ -6,3 +6,5 @@ GDB is a debugger used to analyze, run, and control the execution of binaries. I
 - Inspect registers and memory
 - Set breakpoints and step through instructions
 - Modify values at runtime
+_________
+⚠️ Note: This explanation is written for a CTF challenge context, not for real-world software exploitation.
