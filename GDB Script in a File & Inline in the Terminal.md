@@ -56,9 +56,9 @@ ____________
 → After setting everything up, start the program so it can hit the breakpoint.
 ____
 
- *So the flow is:*
+⚠️ Disclaimer
 
-1. Start program →
-2. Breakpoint at main+42 →
-3. Every time it’s hit: silently grab stack value → store in $val → print nicely → continue →
-4. Loop until program finishes
+This explanation is for a CTF challenge scenario only.
+The addresses, offsets, and commands shown (like `main+42` or `$rbp-0x32`) are specific to this challenge and not fixed rules for all programs.
+In real exploitation, these values change depending on the binary, compiler, and protections.
+
